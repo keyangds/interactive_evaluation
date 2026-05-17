@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="assets/topic.png" alt="Interactive Evaluation Framework" width="100%">
+
 [![arXiv](https://img.shields.io/badge/arXiv-2XXX.XXXXX-b31b1b.svg?style=flat-square)](https://arxiv.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
@@ -56,6 +58,12 @@ We propose organizing interactive evaluation along **two orthogonal axes**:
 - ⚙️ **Process Quality & Efficiency** — Tool choice, action economy, code locality
 - 🔄 **Recoverability & Robustness** — Error detection, plan revision, adaptation
 - 🛡️ **Safety, Alignment & Social Competence** — Norm-sensitive behavior, cooperation
+
+**Key Findings:**
+- 🎯 Trajectory evidence remains outcome-centered — many benchmarks record trajectories but only score final success
+- 🏗️ Evaluation programs are substrate-bound — metrics follow what's easy to measure, not what claims require  
+- ⚠️ Hybrid & dynamic systems severely underexplored — critical gap as systems move toward longer horizons
+
 
 👉 **[Explore Interactive Taxonomy Visualization](#)** (Coming Soon)
 
@@ -133,12 +141,6 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 | 2026 | AI Gamestore | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2602.17594) |
 | 2026 | VendingBench | Embodied / Open-World | Hybrid & Dynamic | Process Quality | [Paper](https://arxiv.org/abs/2502.15840) |
 
-**Key Findings:**
-- 🎯 Trajectory evidence remains outcome-centered — many benchmarks record trajectories but only score final success
-- 🏗️ Evaluation programs are substrate-bound — metrics follow what's easy to measure, not what claims require  
-- ⚠️ Hybrid & dynamic systems severely underexplored — critical gap as systems move toward longer horizons
-
-👉 **[Browse Full Benchmark Database](./data/benchmarks.json)** | **[Interactive Visualization](./visualization/index.html)**
 
 ---
 
