@@ -15,9 +15,9 @@
 If you find this work useful, please cite:
 
 ```bibtex
-@article{xuan2025interactive,
+@article{xuan2026interactive,
   title={Interactive Evaluation Requires a Design Science},
-  author={Xuan, Keyang and Song, Peiyang and Lu, Pan and Han, Pengrui and others},
+  author={},
   journal={arXiv preprint arXiv:2XXX.XXXXX},
   year={2025}
 }
@@ -27,9 +27,11 @@ If you find this work useful, please cite:
 
 ## 💡 Core Insight
 
-> **As LLMs increasingly act through tools, environments, users, and other agents, evaluation must shift from judging isolated responses to assessing interaction trajectories.**
+> **Interactive evaluation should be built as a design science for evaluating systems acting through trajectories. The field does not merely need more interactive benchmarks; it needs explicit principles for specifying what interaction artifacts enter evaluation and how an evaluation program maps those artifacts to judgments.**
 
-Traditional benchmarks evaluate **what** a system outputs. Interactive evaluation must also assess **how** it acts, **whether** it recovers from errors, and **what** risks it creates along the way.
+Response-centered evaluation remains useful when final outputs are sufficient evidence.  
+Interactive evaluation becomes necessary when systems act through tools, environments, users, or other agents, so that earlier actions shape later evidence, opportunities, risks, and outcomes.  
+The central design question is what trajectory evidence enters evaluation and how that evidence is mapped to system-level judgments.
 
 ## 🎯 The Framework
 
