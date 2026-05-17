@@ -11,6 +11,19 @@
 
 </div>
 
+## 🎓 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{xuan2025interactive,
+  title={Interactive Evaluation Requires a Design Science},
+  author={Xuan, Keyang and Song, Peiyang and Lu, Pan and Han, Pengrui and others},
+  journal={arXiv preprint arXiv:2XXX.XXXXX},
+  year={2025}
+}
+```
+
 ---
 
 ## 💡 Core Insight
@@ -64,8 +77,30 @@ We propose organizing interactive evaluation along **two orthogonal axes**:
 - 🏗️ Evaluation programs are substrate-bound — metrics follow what's easy to measure, not what claims require  
 - ⚠️ Hybrid & dynamic systems severely underexplored — critical gap as systems move toward longer horizons
 
+👉 **[View 2D Taxonomy Map](./assets/taxonomy_map.pdf)**
 
-👉 **[Explore Interactive Taxonomy Visualization](#)** (Coming Soon)
+
+## 📐 Design Principles
+
+Our framework proposes five core principles for interactive evaluation:
+
+### 1. 📝 Specify the System and Trajectory Evidence
+Clarify what system is evaluated, what resources it accesses, and what claims the trajectory supports.
+
+### 2. 🔧 Specify the Interaction Protocol
+Document initial state, allowed actions, observation space, stopping rules, reset conditions — the "dataset documentation" of interactive evaluation.
+
+### 3. 🔄 Design for Perturbation and Repair
+Test whether systems detect problems, revise strategies, and remain effective under changing conditions.
+
+### 4. 📊 Separate Outcome, Process, and Risk
+Report final success, trajectory-level properties (cost, safety, recovery), and risks separately.
+
+### 5. 🏗️ Build Shared Infrastructure Without Freezing Design
+Create reusable environments, logging schemas, and reporting templates while preserving diversity in protocols.
+
+---
+
 
 ## 📊 Representative Benchmarks (2016-2026)
 
@@ -144,40 +179,6 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 
 ---
 
-## 🎓 Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{xuan2025interactive,
-  title={Interactive Evaluation Requires a Design Science},
-  author={Xuan, Keyang and Song, Peiyang and Lu, Pan and Han, Pengrui and others},
-  journal={arXiv preprint arXiv:2XXX.XXXXX},
-  year={2025}
-}
-```
-
-## 📐 Design Principles
-
-Our framework proposes five core principles for interactive evaluation:
-
-### 1. 📝 Specify the System and Trajectory Evidence
-Clarify what system is evaluated, what resources it accesses, and what claims the trajectory supports.
-
-### 2. 🔧 Specify the Interaction Protocol
-Document initial state, allowed actions, observation space, stopping rules, reset conditions — the "dataset documentation" of interactive evaluation.
-
-### 3. 🔄 Design for Perturbation and Repair
-Test whether systems detect problems, revise strategies, and remain effective under changing conditions.
-
-### 4. 📊 Separate Outcome, Process, and Risk
-Report final success, trajectory-level properties (cost, safety, recovery), and risks separately.
-
-### 5. 🏗️ Build Shared Infrastructure Without Freezing Design
-Create reusable environments, logging schemas, and reporting templates while preserving diversity in protocols.
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Help us:
@@ -202,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[📊 Data](./data/benchmarks.json) · [🎨 Visualization](./visualization/index.html) · [📖 Documentation](./docs/)**
+**[📊 Data](./data/benchmarks.json) · [🗺️ 2D Taxonomy Map](./assets/taxonomy_map.pdf) · [📖 Documentation](./docs/)**
 
 Made with ❤️ by the Interactive Evaluation team
 

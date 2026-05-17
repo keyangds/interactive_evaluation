@@ -20,7 +20,7 @@ Read the [Taxonomy Guide](taxonomy_guide.md) for detailed explanations of:
 
 ### 3. Browse Benchmarks
 - **Structured data**: [benchmarks.json](../data/benchmarks.json)
-- **Interactive visualization**: [visualization/index.html](../visualization/index.html)
+- **2D Taxonomy map**: [taxonomy_map.pdf](../assets/taxonomy_map.pdf)
 - **Statistics**: [metadata.json](../data/metadata.json)
 
 ---
@@ -88,27 +88,22 @@ WebArena, OSWorld, Sotopia, AppWorld, etc.
 
 ---
 
-## 📊 Using the Visualization
+## 📊 Viewing the Taxonomy
 
-### Local Setup
+### Access the Map
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/Interactive_Evaluation.git
 cd Interactive_Evaluation
 
-# Open visualization in browser
-open visualization/index.html
-# or
-python3 -m http.server 8000
-# then visit http://localhost:8000/visualization/
+# View the taxonomy map
+open assets/taxonomy_map.pdf
 ```
 
-### Features
-- **Filter by stage**: Response-Centered, Task-Driven, Interactive
-- **Filter by year**: 2016-2026
-- **Filter by input type**: Tools, Users, Agents, Hybrid
-- **View details**: Citations, stars, links to papers and code
-- **Search**: (Coming in Phase 2)
+The 2D taxonomy map shows all representative benchmarks organized by:
+- **Y-axis**: Evaluation Programs (Task Success, Process Quality, Recoverability, Safety/Alignment/Social)
+- **X-axis**: Evaluation Inputs (Tools & Environments, Users, Other Agents, Hybrid & Dynamic)
+- **Color**: Stage (Response-Centered, Task-Driven, Interactive)
 
 ---
 
@@ -119,7 +114,7 @@ Want to add a benchmark or improve the project?
 1. **Add a benchmark**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
 2. **Report an error**: Open a GitHub issue
 3. **Improve docs**: Submit a PR
-4. **Enhance visualization**: See `visualization/` folder
+4. **Improve taxonomy**: Suggest refinements via issues
 
 ---
 
@@ -154,7 +149,7 @@ Organizes benchmarks by:
 - [Main README](../README.md) — Project overview
 - [Taxonomy Guide](taxonomy_guide.md) — Detailed framework
 - [Benchmarks Data](../data/benchmarks.json) — Raw JSON
-- [Visualization](../visualization/index.html) — Interactive explorer
+- [2D Taxonomy Map](../assets/taxonomy_map.pdf) — Visual overview
 - [Paper on arXiv](https://arxiv.org/) — Full research article
 - [Contributing](../CONTRIBUTING.md) — How to help
 
@@ -177,8 +172,8 @@ A: Open an issue with your reasoning! We welcome discussion.
 **Q: Can I add a benchmark not in the survey?**  
 A: Yes, as long as it fits our definition of interactive evaluation.
 
-**Q: Will you support other visualization formats?**  
-A: Phase 2 plans include D3.js/Plotly interactive plots.
+**Q: How do I cite individual benchmarks?**  
+A: Each benchmark entry in `benchmarks.json` includes a `paper_url` field with citation information.
 
 ---
 
