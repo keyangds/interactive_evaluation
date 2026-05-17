@@ -1,0 +1,64 @@
+{
+  "last_updated": "2026-05-07",
+  "total_benchmarks": 70,
+  "statistics": {
+    "by_stage": {
+      "Response-Centered": 20,
+      "Task-Driven": 16,
+      "Interactive": 34
+    },
+    "by_year": {
+      "2016": 1,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 5,
+      "2022": 2,
+      "2023": 7,
+      "2024": 16,
+      "2025": 14,
+      "2026": 7
+    },
+    "evaluation_inputs": {
+      "Tools & Environments": 42,
+      "Users": 8,
+      "Other Agents": 5,
+      "Hybrid & Dynamic": 7
+    },
+    "evaluation_programs": {
+      "Task Success": 58,
+      "Process Quality": 12,
+      "Recoverability & Robustness": 2,
+      "Safety, Alignment & Social Competence": 7
+    }
+  },
+  "citation_range": {
+    "min": 2,
+    "max": 11679,
+    "median": 390
+  },
+  "star_range": {
+    "min": 8,
+    "max": 39500,
+    "median": 752
+  },
+  "taxonomy": {
+    "evaluation_inputs": [
+      "Tools & Environments",
+      "Users", 
+      "Other Agents",
+      "Hybrid & Dynamic"
+    ],
+    "evaluation_programs": [
+      "Task Success",
+      "Process Quality & Efficiency",
+      "Recoverability & Robustness",
+      "Safety, Alignment & Social Competence"
+    ]
+  },
+  "featured_benchmarks": {
+    "most_cited": ["squad", "humaneval", "mtbench", "gsm8k"],
+    "most_starred": ["mtbench", "mbpp", "bigbench", "swebench"],
+    "recent_interactive": ["webarena", "osworld", "sotopia", "appworld"]
+  }
+}
