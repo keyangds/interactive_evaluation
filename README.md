@@ -7,10 +7,6 @@
 
 **A Systematic Framework for Evaluating AI Systems that Act Through Trajectories**
 
-[Keyang Xuan](https://keyangxuan.github.io/)¹ · [Peiyang Song](https://peiyangs.github.io/)² · [Pan Lu](https://lupantech.github.io/)⁴ · [Pengrui Han](https://pengruihan.github.io/)⁵ · and others
-
-¹UT Austin · ²Caltech · ³CMU · ⁴Stanford · ⁵UIUC
-
 </div>
 
 ---
@@ -65,13 +61,77 @@ We propose organizing interactive evaluation along **two orthogonal axes**:
 
 ## 📊 Representative Benchmarks (2016-2026)
 
-We curated and categorized **70+ benchmarks** across three evolutionary stages:
+We curated and categorized **55 benchmarks** across three evolutionary stages:
 
-| Stage | Count | Representative Examples |
-|-------|-------|------------------------|
-| **Response-Centered** | 20 | SQuAD, MMLU, GSM8K, HumanEval, MBPP, BigBench |
-| **Task-Driven** | 16 | SWE-Bench, GAIA, Mind2Web, ToolBench, API-Bank |
-| **Interactive** | 34 | WebArena, OSWorld, Sotopia, AppWorld, AgentBench |
+### Stage 1: Response-Centered (20 benchmarks)
+
+| Year | Name | Task Type | Paper |
+|------|------|-----------|-------|
+| 2016 | SQuAD | Reading Comprehension | [Paper](https://arxiv.org/abs/1606.05250) |
+| 2018 | GLUE | Reading Comprehension | [Paper](https://arxiv.org/abs/1804.07461) |
+| 2019 | DROP | Reading Comprehension | [Paper](https://arxiv.org/abs/1903.00161) |
+| 2019 | CommonsenseQA | Commonsense Reasoning | [Paper](https://arxiv.org/abs/1811.00937) |
+| 2020 | MMLU | Knowledge & Multitask Reasoning | [Paper](https://arxiv.org/abs/2009.03300) |
+| 2021 | GSM8K | Math Reasoning | [Paper](https://arxiv.org/abs/2110.14168) |
+| 2021 | MATH | Math Reasoning | [Paper](https://arxiv.org/abs/2103.03874) |
+| 2021 | MiniF2F | Formal Theorem Proving | [Paper](https://arxiv.org/abs/2109.00110) |
+| 2021 | MBPP | Code Generation | [Paper](https://arxiv.org/abs/2108.07732) |
+| 2021 | HumanEval | Code Generation | [Paper](https://arxiv.org/abs/2107.03374) |
+| 2022 | Big-Bench | Broad Capability Probing | [Paper](https://arxiv.org/abs/2206.04615) |
+| 2022 | TruthfulQA | Truthfulness & Factuality | [Paper](https://arxiv.org/abs/2109.07958) |
+| 2023 | LeanDojo | Formal Theorem Proving | [Paper](https://arxiv.org/abs/2306.15626) |
+| 2023 | MT-Bench | Human Preference Evaluation | [Paper](https://arxiv.org/abs/2306.05685) |
+| 2023 | LongBench | Long-Context Understanding | [Paper](https://arxiv.org/abs/2308.14508) |
+| 2024 | Chatbot Arena | Human Preference Evaluation | [Paper](https://arxiv.org/abs/2403.04132) |
+| 2024 | LoCoMo | Long-term Memory | [Paper](https://arxiv.org/abs/2402.17753) |
+| 2024 | AlpacaEval | Human Preference Evaluation | [Paper](https://arxiv.org/abs/2404.04475) |
+| 2024 | Omni-Math | Math Reasoning | — |
+| 2025 | LongMemEval | Long-term Memory | [Paper](https://arxiv.org/abs/2410.10813) |
+
+### Stage 2: Task-Driven (15 benchmarks)
+
+| Year | Name | Task Type | Paper |
+|------|------|-----------|-------|
+| 2023 | SWE-Bench | Code & Software Engineering | [Paper](https://arxiv.org/abs/2310.06770) |
+| 2023 | API-Bank | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2304.08244) |
+| 2023 | Mind2Web | Web Navigation | [Paper](https://arxiv.org/abs/2306.06070) |
+| 2023 | GAIA | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2311.12983) |
+| 2023 | ToolBench | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2307.16789) |
+| 2023 | TaskBench | Task Automation & Planning | — |
+| 2024 | LiveCodeBench | Code Generation & Execution | [Paper](https://arxiv.org/abs/2403.07974) |
+| 2024 | StableToolBench | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2403.07193) |
+| 2024 | TravelPlanner | Planning & Constraint Satisfaction | [Paper](https://arxiv.org/abs/2402.01622) |
+| 2025 | OSS-Bench | Code & Software Engineering | [Paper](https://arxiv.org/abs/2505.12331) |
+| 2025 | MM-BrowseComp | Web Navigation | [Paper](https://arxiv.org/abs/2508.13186) |
+| 2025 | BrowseComp | Web Navigation | [Paper](https://arxiv.org/abs/2504.12516) |
+| 2026 | DeepPlanning | Planning & Constraint Satisfaction | [Paper](https://arxiv.org/abs/2601.18137) |
+| 2026 | Terminal-Bench | Code & Software Engineering | [Paper](https://arxiv.org/abs/2601.11868) |
+| 2026 | LongCLI-Bench | Code & Software Engineering | [Paper](https://arxiv.org/abs/2602.14337) |
+
+### Stage 3: Interactive (20 benchmarks)
+
+| Year | Name | Task Type | Evaluation Input | Evaluation Program | Paper |
+|------|------|-----------|------------------|-------------------|-------|
+| 2024 | AppWorld | App / Software Use | Tools & Environments | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2407.18506) |
+| 2024 | AndroidWorld | Web / Computer Use | Tools & Environments | Task Success | [Paper](https://arxiv.org/abs/2405.14573) |
+| 2024 | τ-bench | Tool / Assistant | Users | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2406.12045) |
+| 2024 | VisualWebArena | Web / Computer Use | Tools & Environments | Task Success | [Paper](https://arxiv.org/abs/2401.13649) |
+| 2024 | OSWorld | Web / Computer Use | Tools & Environments | Task Success | [Paper](https://arxiv.org/abs/2404.07972) |
+| 2024 | AgentDojo | Web / Computer Use | Tools & Environments | Recoverability & Robustness | [Paper](https://arxiv.org/abs/2406.13352) |
+| 2024 | WebArena | Web / Computer Use | Tools & Environments | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2307.13854) |
+| 2024 | Sotopia | Social Interaction | Other Agents | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2310.11667) |
+| 2025 | UserBench | Tool / Assistant | Users | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2507.22034) |
+| 2025 | Agent-SafetyBench | Tool / Assistant | Users | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2412.14470) |
+| 2025 | ToolSandbox | Tool / Assistant | Users | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2408.04682) |
+| 2025 | MultiAgentBench | Social Interaction | Other Agents | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2406.14340) |
+| 2025 | SimWorld | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2512.01078) |
+| 2025 | ARE (GAIA2) | App / Software Use | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2509.17158) |
+| 2025 | RealWebAssist | Web / Computer Use | Users | Task Success | — |
+| 2026 | CooperBench | Web / Social Interaction | Other Agents | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2601.13295) |
+| 2026 | BuilderBench | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2510.06288) |
+| 2026 | MemoryArena | Hybrid / Dynamic | Hybrid & Dynamic | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2602.16313) |
+| 2026 | AI Gamestore | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2602.17594) |
+| 2026 | VendingBench | Embodied / Open-World | Hybrid & Dynamic | Process Quality | [Paper](https://arxiv.org/abs/2502.15840) |
 
 **Key Findings:**
 - 🎯 Trajectory evidence remains outcome-centered — many benchmarks record trajectories but only score final success
@@ -79,6 +139,21 @@ We curated and categorized **70+ benchmarks** across three evolutionary stages:
 - ⚠️ Hybrid & dynamic systems severely underexplored — critical gap as systems move toward longer horizons
 
 👉 **[Browse Full Benchmark Database](./data/benchmarks.json)** | **[Interactive Visualization](./visualization/index.html)**
+
+---
+
+## 🎓 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{xuan2025interactive,
+  title={Interactive Evaluation Requires a Design Science},
+  author={Xuan, Keyang and Song, Peiyang and Lu, Pan and Han, Pengrui and others},
+  journal={arXiv preprint arXiv:2XXX.XXXXX},
+  year={2025}
+}
+```
 
 ## 📐 Design Principles
 
@@ -99,18 +174,7 @@ Report final success, trajectory-level properties (cost, safety, recovery), and 
 ### 5. 🏗️ Build Shared Infrastructure Without Freezing Design
 Create reusable environments, logging schemas, and reporting templates while preserving diversity in protocols.
 
-## 🎓 Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{xuan2025interactive,
-  title={Interactive Evaluation Requires a Design Science},
-  author={Xuan, Keyang and Song, Peiyang and Lu, Pan and Han, Pengrui and others},
-  journal={arXiv preprint arXiv:2XXX.XXXXX},
-  year={2025}
-}
-```
+---
 
 ## 🤝 Contributing
 

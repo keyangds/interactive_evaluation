@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-05-07",
-  "total_benchmarks": 70,
+  "last_updated": "2026-05-16",
+  "total_benchmarks": 55,
   "statistics": {
     "by_stage": {
       "Response-Centered": 20,
-      "Task-Driven": 16,
-      "Interactive": 34
+      "Task-Driven": 15,
+      "Interactive": 20
     },
     "by_year": {
       "2016": 1,
