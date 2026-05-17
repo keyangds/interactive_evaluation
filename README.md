@@ -102,7 +102,7 @@ Create reusable environments, logging schemas, and reporting templates while pre
 ---
 
 
-## 📊 Representative Benchmarks (Keep Updating)
+## 📊 Representative Benchmarks (Kept Updating)
 
 We curated and categorized **55 benchmarks** across three evolutionary stages:
 
@@ -193,7 +193,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 For questions or collaborations:
 - **Keyang Xuan**: keyangx@utexas.edu
-- **Peiyang Song**: psong@caltech.edu
+- **Peiyang Song**: psong2@andrew.cmu.edu
 
 ## 📄 License
 
