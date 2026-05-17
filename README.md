@@ -6,6 +6,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2XXX.XXXXX-b31b1b.svg?style=flat-square)](https://arxiv.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red?style=flat-square)](CONTRIBUTING.md)
 
 **A Systematic Framework for Evaluating AI Systems that Act Through Trajectories**
 
