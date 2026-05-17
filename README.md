@@ -56,7 +56,11 @@ Where:
 
 We propose organizing interactive evaluation along **two orthogonal axes**:
 
-👉 **[View 2D Taxonomy Map (PDF)](./assets/taxonomy_map.pdf)** 📊
+<div align="center">
+<img src="assets/taxonomy_map.png" alt="2D Taxonomy Map" width="100%">
+
+*[📄 Download high-resolution PDF version](./assets/taxonomy_map.pdf)*
+</div>
 
 ### Axis 1: Evaluation Inputs (What trajectories connect to)
 - 🛠️ **Tools & Environments** — Web pages, OS, apps, repositories
