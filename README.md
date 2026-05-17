@@ -2,9 +2,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square)](./Interactive_Evaluation_arxiv.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2XXX.XXXXX-b31b1b.svg?style=flat-square)](https://arxiv.org/)
-[![Stars](https://img.shields.io/github/stars/yourusername/Interactive_Evaluation?style=flat-square&color=yellow)](https://github.com/yourusername/Interactive_Evaluation/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 **A Systematic Framework for Evaluating AI Systems that Act Through Trajectories**
@@ -69,46 +67,18 @@ We propose organizing interactive evaluation along **two orthogonal axes**:
 
 We curated and categorized **70+ benchmarks** across three evolutionary stages:
 
-<div align="center">
-<img src="assets/roadmap.pdf" width="800px">
-</div>
+| Stage | Count | Representative Examples |
+|-------|-------|------------------------|
+| **Response-Centered** | 20 | SQuAD, MMLU, GSM8K, HumanEval, MBPP, BigBench |
+| **Task-Driven** | 16 | SWE-Bench, GAIA, Mind2Web, ToolBench, API-Bank |
+| **Interactive** | 34 | WebArena, OSWorld, Sotopia, AppWorld, AgentBench |
 
-### Evolution Stages
+**Key Findings:**
+- 🎯 Trajectory evidence remains outcome-centered — many benchmarks record trajectories but only score final success
+- 🏗️ Evaluation programs are substrate-bound — metrics follow what's easy to measure, not what claims require  
+- ⚠️ Hybrid & dynamic systems severely underexplored — critical gap as systems move toward longer horizons
 
-```mermaid
-graph LR
-    A[Stage 1: Response-Centered] --> B[Stage 2: Task-Driven]
-    B --> C[Stage 3: Interactive]
-    C --> D[Stage 4: Future Suites]
-    
-    style A fill:#e3f2fd
-    style B fill:#fff9c4
-    style C fill:#f3e5f5
-    style D fill:#fce4ec
-```
-
-- **Stage 1** (20 benchmarks): SQuAD, MMLU, GSM8K, HumanEval...
-- **Stage 2** (16 benchmarks): SWE-Bench, GAIA, Mind2Web, ToolBench...
-- **Stage 3** (19+ benchmarks): WebArena, OSWorld, Sotopia, AppWorld...
-
-### Key Findings
-
-| Finding | Observation |
-|---------|-------------|
-| 🎯 **Trajectory evidence remains outcome-centered** | Many benchmarks record trajectories but only score final success |
-| 🏗️ **Evaluation programs are substrate-bound** | Metrics follow what's easy to measure, not what claims require |
-| ⚠️ **Hybrid & dynamic systems severely underexplored** | Critical gap as systems move toward longer horizons |
-
-👉 **[Browse Full Benchmark Database](./data/benchmarks.json)**
-
-### Quick Stats
-
-```
-Total Benchmarks: 70+
-Citation Range: 2 - 11,679
-GitHub Stars Range: 8 - 39,500
-Year Range: 2016 - 2026
-```
+👉 **[Browse Full Benchmark Database](./data/benchmarks.json)** | **[Interactive Visualization](./visualization/index.html)**
 
 ## 📐 Design Principles
 
@@ -166,7 +136,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[🏠 Project Page](#) · [📄 Paper](./Interactive_Evaluation_arxiv.pdf) · [📊 Data](./data/benchmarks.json) · [🎨 Visualizations](#)**
+**[📊 Data](./data/benchmarks.json) · [🎨 Visualization](./visualization/index.html) · [📖 Documentation](./docs/)**
 
 Made with ❤️ by the Interactive Evaluation team
 

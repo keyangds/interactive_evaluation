@@ -5,7 +5,7 @@ Welcome! This guide will help you navigate the Interactive Evaluation project.
 ## 📚 Understanding the Work
 
 ### 1. Read the Paper
-Start with the [paper](../Interactive_Evaluation_arxiv.pdf) to understand our framework:
+Start with the [paper on arXiv](https://arxiv.org/) to understand our framework:
 - **Section 1**: Motivation — why response-centered evaluation is insufficient
 - **Section 2**: Framework — the E: X → Y mapping
 - **Section 3**: Taxonomy — organizing interactive benchmarks
@@ -155,7 +155,7 @@ Organizes benchmarks by:
 - [Taxonomy Guide](taxonomy_guide.md) — Detailed framework
 - [Benchmarks Data](../data/benchmarks.json) — Raw JSON
 - [Visualization](../visualization/index.html) — Interactive explorer
-- [Paper](../Interactive_Evaluation_arxiv.pdf) — Full research article
+- [Paper on arXiv](https://arxiv.org/) — Full research article
 - [Contributing](../CONTRIBUTING.md) — How to help
 
 ---
