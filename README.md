@@ -102,11 +102,11 @@ Create reusable environments, logging schemas, and reporting templates while pre
 ---
 
 
-## 📊 Representative Benchmarks (2016-2026)
+## 📊 Representative Benchmarks (Keep Updating)
 
 We curated and categorized **55 benchmarks** across three evolutionary stages:
 
-### Stage 1: Response-Centered (20 benchmarks)
+### Stage 1: Response-Centered 
 
 | Year | Name | Task Type | Paper |
 |------|------|-----------|-------|
@@ -128,10 +128,10 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 | 2024 | Chatbot Arena | Human Preference Evaluation | [Paper](https://arxiv.org/abs/2403.04132) |
 | 2024 | LoCoMo | Long-term Memory | [Paper](https://arxiv.org/abs/2402.17753) |
 | 2024 | AlpacaEval | Human Preference Evaluation | [Paper](https://arxiv.org/abs/2404.04475) |
-| 2024 | Omni-Math | Math Reasoning | — |
+| 2024 | Omni-Math | Math Reasoning | [Paper](https://arxiv.org/abs/2410.07985) |
 | 2025 | LongMemEval | Long-term Memory | [Paper](https://arxiv.org/abs/2410.10813) |
 
-### Stage 2: Task-Driven (15 benchmarks)
+### Stage 2: Task-Driven 
 
 | Year | Name | Task Type | Paper |
 |------|------|-----------|-------|
@@ -140,7 +140,7 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 | 2023 | Mind2Web | Web Navigation | [Paper](https://arxiv.org/abs/2306.06070) |
 | 2023 | GAIA | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2311.12983) |
 | 2023 | ToolBench | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2307.16789) |
-| 2023 | TaskBench | Task Automation & Planning | — |
+| 2023 | TaskBench | Task Automation & Planning | [Paper](https://arxiv.org/abs/2311.18760)  |
 | 2024 | LiveCodeBench | Code Generation & Execution | [Paper](https://arxiv.org/abs/2403.07974) |
 | 2024 | StableToolBench | Tool Use & API Calling | [Paper](https://arxiv.org/abs/2403.07193) |
 | 2024 | TravelPlanner | Planning & Constraint Satisfaction | [Paper](https://arxiv.org/abs/2402.01622) |
@@ -151,30 +151,30 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 | 2026 | Terminal-Bench | Code & Software Engineering | [Paper](https://arxiv.org/abs/2601.11868) |
 | 2026 | LongCLI-Bench | Code & Software Engineering | [Paper](https://arxiv.org/abs/2602.14337) |
 
-### Stage 3: Interactive (20 benchmarks)
+### Stage 3: Interactive 
 
-| Year | Name | Task Type | Evaluation Input | Evaluation Program | Paper |
-|------|------|-----------|------------------|-------------------|-------|
-| 2024 | AppWorld | App / Software Use | Tools & Environments | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2407.18506) |
-| 2024 | AndroidWorld | Web / Computer Use | Tools & Environments | Task Success | [Paper](https://arxiv.org/abs/2405.14573) |
-| 2024 | τ-bench | Tool / Assistant | Users | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2406.12045) |
-| 2024 | VisualWebArena | Web / Computer Use | Tools & Environments | Task Success | [Paper](https://arxiv.org/abs/2401.13649) |
-| 2024 | OSWorld | Web / Computer Use | Tools & Environments | Task Success | [Paper](https://arxiv.org/abs/2404.07972) |
-| 2024 | AgentDojo | Web / Computer Use | Tools & Environments | Recoverability & Robustness | [Paper](https://arxiv.org/abs/2406.13352) |
-| 2024 | WebArena | Web / Computer Use | Tools & Environments | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2307.13854) |
-| 2024 | Sotopia | Social Interaction | Other Agents | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2310.11667) |
-| 2025 | UserBench | Tool / Assistant | Users | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2507.22034) |
-| 2025 | Agent-SafetyBench | Tool / Assistant | Users | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2412.14470) |
-| 2025 | ToolSandbox | Tool / Assistant | Users | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2408.04682) |
-| 2025 | MultiAgentBench | Social Interaction | Other Agents | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2406.14340) |
-| 2025 | SimWorld | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2512.01078) |
-| 2025 | ARE (GAIA2) | App / Software Use | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2509.17158) |
-| 2025 | RealWebAssist | Web / Computer Use | Users | Task Success | — |
-| 2026 | CooperBench | Web / Social Interaction | Other Agents | Safety, Alignment & Social | [Paper](https://arxiv.org/abs/2601.13295) |
-| 2026 | BuilderBench | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2510.06288) |
-| 2026 | MemoryArena | Hybrid / Dynamic | Hybrid & Dynamic | Task Success, Process Quality | [Paper](https://arxiv.org/abs/2602.16313) |
-| 2026 | AI Gamestore | Embodied / Open-World | Hybrid & Dynamic | Task Success | [Paper](https://arxiv.org/abs/2602.17594) |
-| 2026 | VendingBench | Embodied / Open-World | Hybrid & Dynamic | Process Quality | [Paper](https://arxiv.org/abs/2502.15840) |
+| Year | Name | Task Type | Evaluation Input | Paper |
+|------|------|-----------|------------------|-------|
+| 2024 | AppWorld | App / Software Use | Tools & Environments | [Paper](https://arxiv.org/abs/2407.18506) |
+| 2024 | AndroidWorld | Web / Computer Use | Tools & Environments | [Paper](https://arxiv.org/abs/2405.14573) |
+| 2024 | τ-bench | Tool / Assistant | Users | [Paper](https://arxiv.org/abs/2406.12045) |
+| 2024 | VisualWebArena | Web / Computer Use | Tools & Environments | [Paper](https://arxiv.org/abs/2401.13649) |
+| 2024 | OSWorld | Web / Computer Use | Tools & Environments | [Paper](https://arxiv.org/abs/2404.07972) |
+| 2024 | AgentDojo | Web / Computer Use | Tools & Environments | [Paper](https://arxiv.org/abs/2406.13352) |
+| 2024 | WebArena | Web / Computer Use | Tools & Environments | [Paper](https://arxiv.org/abs/2307.13854) |
+| 2024 | Sotopia | Social Interaction | Other Agents | [Paper](https://arxiv.org/abs/2310.11667) |
+| 2025 | UserBench | Tool / Assistant | Users | [Paper](https://arxiv.org/abs/2507.22034) |
+| 2025 | Agent-SafetyBench | Tool / Assistant | Users | [Paper](https://arxiv.org/abs/2412.14470) |
+| 2025 | ToolSandbox | Tool / Assistant | Users | [Paper](https://arxiv.org/abs/2408.04682) |
+| 2025 | MultiAgentBench | Social Interaction | Other Agents | [Paper](https://arxiv.org/abs/2406.14340) |
+| 2025 | SimWorld | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2512.01078) |
+| 2025 | ARE (GAIA2) | App / Software Use | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2509.17158) |
+| 2025 | RealWebAssist | Web / Computer Use | Users | [Paper](https://arxiv.org/abs/2504.10445) |
+| 2026 | CooperBench | Web / Social Interaction | Other Agents | [Paper](https://arxiv.org/abs/2601.13295) |
+| 2026 | BuilderBench | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2510.06288) |
+| 2026 | MemoryArena | Hybrid / Dynamic | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2602.16313) |
+| 2026 | AI Gamestore | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2602.17594) |
+| 2026 | VendingBench | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2502.15840) |
 
 
 ---
