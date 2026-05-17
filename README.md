@@ -56,9 +56,7 @@ Where:
 
 We propose organizing interactive evaluation along **two orthogonal axes**:
 
-<div align="center">
-<img src="assets/taxonomy_map.pdf" width="800px">
-</div>
+👉 **[View 2D Taxonomy Map (PDF)](./assets/taxonomy_map.pdf)** 📊
 
 ### Axis 1: Evaluation Inputs (What trajectories connect to)
 - 🛠️ **Tools & Environments** — Web pages, OS, apps, repositories
@@ -77,7 +75,6 @@ We propose organizing interactive evaluation along **two orthogonal axes**:
 - 🏗️ Evaluation programs are substrate-bound — metrics follow what's easy to measure, not what claims require  
 - ⚠️ Hybrid & dynamic systems severely underexplored — critical gap as systems move toward longer horizons
 
-👉 **[View 2D Taxonomy Map](./assets/taxonomy_map.pdf)**
 
 
 ## 📐 Design Principles
