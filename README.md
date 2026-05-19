@@ -12,14 +12,17 @@
 </div>
 
 
-If you find this work useful, please cite:
+If you find this work useful, please read our [full paper](https://arxiv.org/abs/2605.17829) and/or cite:
 
 ```bibtex
-@article{xuan2026interactive,
-  title={Interactive Evaluation Requires a Design Science},
-  author={},
-  journal={arXiv preprint arXiv:2605.17829},
-  year={2026}
+@misc{xuan2026interactiveevaluationrequiresdesign,
+      title={Interactive Evaluation Requires a Design Science}, 
+      author={Keyang Xuan and Peiyang Song and Pan Lu and Pengrui Han and Wenkai Li and Zhenyu Zhang and Zexue He and Wenyue Hua and Manling Li and Jiaxuan You and Adrian Weller and Yizhong Wang and Jiaxin Pei},
+      year={2026},
+      eprint={2605.17829},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.17829}, 
 }
 ```
 
