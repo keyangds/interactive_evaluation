@@ -4,7 +4,7 @@
 
 <img src="assets/topic.png" alt="Interactive Evaluation Framework" width="85%">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2XXX.XXXXX-b31b1b.svg?style=flat-square)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.17829-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2605.17829)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red?style=flat-square)](CONTRIBUTING.md)
 
@@ -18,8 +18,8 @@ If you find this work useful, please cite:
 @article{xuan2026interactive,
   title={Interactive Evaluation Requires a Design Science},
   author={},
-  journal={arXiv preprint arXiv:2XXX.XXXXX},
-  year={2025}
+  journal={arXiv preprint arXiv:2605.17829},
+  year={2026}
 }
 ```
 
@@ -58,7 +58,7 @@ Where:
 We propose organizing interactive evaluation along **two orthogonal axes**:
 
 <div align="center">
-<img src="assets/taxonomy_map.png" alt="2D Taxonomy Map" width="100%">
+<img src="assets/taxonomy_map.pdf" alt="2D Taxonomy Map" width="100%">
 </div>
 
 ### Axis 1: Evaluation Inputs (What trajectories connect to)
@@ -202,8 +202,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-
-**[📊 Data](./data/benchmarks.json) · [🗺️ 2D Taxonomy Map](./assets/taxonomy_map.pdf) · [📖 Documentation](./docs/)**
 
 Made with ❤️ by the Interactive Evaluation team
 
