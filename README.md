@@ -58,7 +58,7 @@ Where:
 We propose organizing interactive evaluation along **two orthogonal axes**:
 
 <div align="center">
-<img src="assets/taxonomy_map.pdf" alt="2D Taxonomy Map" width="100%">
+<img src="assets/taxonomy_map.png" alt="2D Taxonomy Map" width="100%">
 </div>
 
 ### Axis 1: Evaluation Inputs (What trajectories connect to)
