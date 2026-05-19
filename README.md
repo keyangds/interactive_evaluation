@@ -1,4 +1,4 @@
-# Interactive Evaluation Requires a Design Science
+<h1 align="center">Interactive Evaluation Requires a Design Science</h1>
 
 <div align="center">
 
