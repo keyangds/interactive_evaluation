@@ -103,16 +103,9 @@ Types: `[ADD]`, `[UPDATE]`, `[FIX]`, `[DOCS]`, `[VIZ]`
 - **Feature requests**: Open an issue with the "enhancement" label
 - **Private inquiries**: Email keyangx@utexas.edu and/or psong2@andrew.cmu.edu
 
-## 📜 Code of Conduct
-
-- Be respectful and constructive
-- Focus on the work, not the person
-- Assume good intent
-- No harassment or discrimination
-
 ## 🙏 Recognition
 
-All contributors will be acknowledged in our [Contributors](CONTRIBUTORS.md) file and on the project website.
+All contributors will be acknowledged in our [README](README.md) file.
 
 ---
 
