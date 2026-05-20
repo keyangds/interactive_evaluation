@@ -184,13 +184,11 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 
 ## 🤝 Contributing
 
-We welcome contributions! Help us:
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📬 Contact
 
-For questions or collaborations:
+For questions or collaborations, contact:
 - **Keyang Xuan**: keyangx@utexas.edu
 - **Peiyang Song**: psong2@andrew.cmu.edu
 
