@@ -196,11 +196,11 @@ For questions or collaborations, contact:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgment
+## 🙏 Acknowledgment
 
 * We thank Daniel Fried (CMU) and Katie M. Collins (Cambridge/MIT/Princeton) for discussions and helpful feedback on earlier versions of this paper. 
 
-## Citation
+## 📖 Citation
 
 If you find our work useful, please consider citing [our paper](https://arxiv.org/abs/2605.17829):
 
