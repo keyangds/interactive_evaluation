@@ -196,6 +196,26 @@ For questions or collaborations, contact:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Acknowledgment
+
+* We thank Daniel Fried (CMU) and Katie M. Collins (Cambridge/MIT/Princeton) for discussions and helpful feedback on earlier versions of this paper. 
+
+## Citation
+
+If you find our work useful, please consider citing [our paper](https://arxiv.org/abs/2605.17829):
+
+```BibTeX
+@misc{xuan2026interactiveevaluationrequiresdesign,
+      title={Interactive Evaluation Requires a Design Science}, 
+      author={Keyang Xuan and Peiyang Song and Pan Lu and Pengrui Han and Wenkai Li and Zhenyu Zhang and Zexue He and Wenyue Hua and Manling Li and Jiaxuan You and Adrian Weller and Yizhong Wang and Jiaxin Pei},
+      year={2026},
+      eprint={2605.17829},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.17829}, 
+}
+```
+
 ---
 
 <div align="center">
