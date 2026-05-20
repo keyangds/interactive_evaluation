@@ -12,7 +12,7 @@
 </div>
 
 
-If you find this work useful, please read our [full paper](https://arxiv.org/abs/2605.17829) and/or cite:
+If you find this work useful, please consider reading our [full paper](https://arxiv.org/abs/2605.17829) and/or citing:
 
 ```bibtex
 @misc{xuan2026interactiveevaluationrequiresdesign,
