@@ -101,7 +101,7 @@ Types: `[ADD]`, `[UPDATE]`, `[FIX]`, `[DOCS]`, `[VIZ]`
 - **General questions**: Open a GitHub Discussion
 - **Bug reports**: Open an issue with the "bug" label
 - **Feature requests**: Open an issue with the "enhancement" label
-- **Private inquiries**: Email keyangx@utexas.edu
+- **Private inquiries**: Email keyangx@utexas.edu and/or psong2@andrew.cmu.edu
 
 ## 📜 Code of Conduct
 
