@@ -185,10 +185,6 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 ## 🤝 Contributing
 
 We welcome contributions! Help us:
-- 🆕 Add new benchmarks to our database
-- 🏷️ Improve benchmark categorization
-- 📊 Enhance visualizations
-- 📖 Expand documentation
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 

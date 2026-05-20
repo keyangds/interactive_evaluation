@@ -50,21 +50,6 @@ Found a typo, broken link, or incorrect data?
 1. Open an issue or directly submit a PR
 2. For data corrections, cite your source
 
-### 4. Enhance Visualizations
-
-We welcome improvements to our visualization tools:
-- Better interactive features
-- Mobile responsiveness
-- Accessibility improvements
-- New visualization types
-
-### 5. Expand Documentation
-
-Help make our framework clearer:
-- Add examples and use cases
-- Clarify definitions
-- Improve explanations
-- Translate content
 
 ## 📋 Pull Request Process
 
