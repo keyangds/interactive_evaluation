@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-05-16",
-  "total_benchmarks": 55,
+  "last_updated": "2026-05-22",
+  "total_benchmarks": 56,
   "statistics": {
     "by_stage": {
       "Response-Centered": 20,
       "Task-Driven": 15,
-      "Interactive": 20
+      "Interactive": 21
     },
     "by_year": {
       "2016": 1,
@@ -17,17 +17,17 @@
       "2023": 7,
       "2024": 16,
       "2025": 14,
-      "2026": 7
+      "2026": 8
     },
     "evaluation_inputs": {
-      "Tools & Environments": 42,
-      "Users": 8,
+      "Tools & Environments": 43,
+      "Users": 9,
       "Other Agents": 5,
-      "Hybrid & Dynamic": 7
+      "Hybrid & Dynamic": 8
     },
     "evaluation_programs": {
-      "Task Success": 58,
-      "Process Quality": 12,
+      "Task Success": 59,
+      "Process Quality": 13,
       "Recoverability & Robustness": 2,
       "Safety, Alignment & Social Competence": 7
     }
