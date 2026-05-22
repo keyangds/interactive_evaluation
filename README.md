@@ -107,7 +107,7 @@ Create reusable environments, logging schemas, and reporting templates while pre
 
 ## 📊 Representative Benchmarks (Kept Updating)
 
-We curated and categorized **55 benchmarks** across three evolutionary stages:
+We curated and categorized **56 benchmarks** across three evolutionary stages:
 
 ### Stage 1: Response-Centered 
 
@@ -176,6 +176,7 @@ We curated and categorized **55 benchmarks** across three evolutionary stages:
 | 2026 | CooperBench | Web / Social Interaction | Other Agents | [Paper](https://arxiv.org/abs/2601.13295) |
 | 2026 | BuilderBench | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2510.06288) |
 | 2026 | MemoryArena | Hybrid / Dynamic | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2602.16313) |
+| 2026 | π-Bench | Proactive Personal Assistant | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2605.14678) |
 | 2026 | AI Gamestore | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2602.17594) |
 | 2026 | VendingBench | Embodied / Open-World | Hybrid & Dynamic | [Paper](https://arxiv.org/abs/2502.15840) |
 

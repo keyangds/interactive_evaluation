@@ -742,6 +742,20 @@
     "description": "Benchmarking agent memory in interdependent multi-session agentic tasks"
   },
   {
+    "id": "pibench",
+    "name": "π-Bench",
+    "year": 2026,
+    "stage": "Interactive",
+    "task_type": "Proactive Personal Assistant",
+    "evaluation_input": ["Users", "Tools & Environments", "Hybrid & Dynamic"],
+    "evaluation_program": ["Task Success", "Process Quality"],
+    "citations": null,
+    "stars": 23,
+    "paper_url": "https://arxiv.org/abs/2605.14678",
+    "github_url": "https://github.com/Simplified-Reasoning/Pi-Bench",
+    "description": "Benchmark for proactive personal assistant agents in long-horizon, artifact-centric workflows with hidden intents and cross-session dependencies"
+  },
+  {
     "id": "ai_gamestore",
     "name": "AI Gamestore",
     "year": 2026,
